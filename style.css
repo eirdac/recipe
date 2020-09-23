@@ -1,0 +1,36 @@
+body {
+	background-color: #DFDCE5FF;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    align-content: center;
+}
+
+h2 {
+    color: #DBB04AFF;
+}
+
+
+
+
+
+/* The grid container
+.container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: "sidebar navigation" 
+		                   "sidebar content";
+}
+
+.nav {
+	background-color: #222; color: white;
+	grid-area: navigation;
+}
+.side {
+	background-color: gold;
+	grid-area: sidebar;
+}
+.story {
+	background-color: white;
+	grid-area: content;
+} */
