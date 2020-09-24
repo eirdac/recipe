@@ -1,6 +1,9 @@
 Creating a recipe page using HTML/CSS.
 
-source: https://picturetherecipe.com/recipes/banana-bread-with-honey-oats-walnuts/
+Recipe and icons used do not belong to me.
+recipe source: https://picturetherecipe.com/recipes/banana-bread-with-honey-oats-walnuts/
+
+icon source: https://fontawesome.com/
 
 Banana Bread with honey, oats, & walnuts (H1)
 

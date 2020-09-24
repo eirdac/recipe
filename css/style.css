@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body {
+	background-color: #DFDCE5FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 400px width for mobile size */
+/* .container {
+    width: 400px;
+    color: #97B3D0FF;
+} */
+
+header {
+    background-color: rgb(57, 56, 59);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    color:#000000;
+    font-size: 2em;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Rubik' , sans-serif;
+}
+
+li {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+/* author/date section */
+.credit {
+    font-size: 0.80em;
+    font-style: italic;
+}
+
+
+
+/* top links ... recipes ingredients trending...*/
+.top_links {
+    display: inline-block;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_links a {
+    padding: 0px 20px;
+    color: #ffffff;
+}
+
+.top_links a:hover {
+    color: #000000;
+}
+
+.info li {
+    display: inline-block;
+}
+
+
+/* title and time info section */
+.intro {
+    background-color: rgb(196, 220, 247);
+    border-radius: 5px;
+}
+
+
+
+/* nav link styling ... ingredients, equipment, etc */
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    padding: 0px 20px;
+}
+
+.nav li, a {
+    transition: all 0.3s ease 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav li a:hover {
+    color: #000000;
+}
+
+
+
+/* other styling */
+.highlight {
+    background:rgb(57, 56, 59);
+
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+
+
+
+/* The grid container
+.container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: "sidebar navigation" 
+		                   "sidebar content";
+}
+
+.nav {
+	background-color: #222; color: white;
+	grid-area: navigation;
+}
+.side {
+	background-color: gold;
+	grid-area: sidebar;
+}
+.story {
+	background-color: white;
+	grid-area: content;
+} */
