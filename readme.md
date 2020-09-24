@@ -1,16 +1,32 @@
+Creating a recipe page using HTML/CSS.
+
 source: https://picturetherecipe.com/recipes/banana-bread-with-honey-oats-walnuts/
 
-Banana Bread with honey, oats, & walnuts
+Banana Bread with honey, oats, & walnuts (H1)
 
+Site Content:
+- logo
+- nav
+- footer -> legal, copyright, social media
+
+-> clickable header menu
 - Header
-    - description
-        - "A super simple to make, moist, melt in your mouth delicious Banana Bread with Honey, Oats & Walnuts. This one's perfect to freeze slice and eat whenever you want."
-    - skill level: easy
-    - prep time: 15 mins
-    - cooking time: 1 hr
-    - total time: 1 hr 15 mins
+    - skill level: easy (H2)
+    - prep time: 15 mins (H2)
+    - cooking time: 1 hr (H2)
+    - total time: 1 hr 15 mins (H2)
 
-- Ingredients
+- Top anchor links
+    - descript.
+    - ingredients
+    - equip.
+    - directions
+
+- Description (H2)
+        - "A super simple to make, moist, melt in your mouth delicious Banana Bread with Honey, Oats & Walnuts. This one's perfect to freeze slice and eat whenever you want." (p)
+
+- Ingredients (H2)
+-> list is all p
     - 3 ripe/over ripe bananas, mashed up
     - 1/2 cup butter (1 small stick)
     - 1/2 cup honey
@@ -25,7 +41,15 @@ Banana Bread with honey, oats, & walnuts
     - 1/2 cup oats
     - 1 cup chopped walnuts
 
-- Directions	
+- Equipment (H2)
+-> text is all p
+    - large mixing bowl / stand mixer
+    - spatula / wooden spoon
+    - loaf baking tin
+    - cooling rack (optional)
+
+- Directions (H2)
+-> text is all p
     - Preheat your oven to 350F. In a large mixing bowl or the bowl of a stand up mixer, add the mashed bananas (over ripe bananas are best, mine weren't), a stick of butter, the honey, brown sugar, vanilla, eggs, baking soda, baking powder, cinnamon powder and salt.
     - Using the paddle attachment on medium speed, mix all the ingredients together, till it's all combined. Don't worry too much if there are a few banana lumps here and there.
     - Add the flour and oats and barely mix it to come together. In fact you can just hand mix it.
@@ -34,12 +58,8 @@ Banana Bread with honey, oats, & walnuts
     - Bake at 350F for 45-55 minutes. Check with a tooth pick to see if the bread is done. If the toothpick comes out clean after poking it through the center of the cake, it's done.
     - Take the cake out and let it cool for a 10 minutes, but you have to try a slice while it's still warm....and you have to try it with a little butter or honey yogurt....mmmmmm it just melts in your mouth! It's soooo good.
 
-- Equipment
-    - large mixing bowl / stand mixer
-    - spatula / wooden spoon
-    - loaf baking tin
-    - cooling rack (optional)
 
+-> p text
 - Footer
     - copyright info
     - date

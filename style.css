@@ -1,16 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 body {
 	background-color: #DFDCE5FF;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+}
 
-    align-content: center;
+/* 400px width for mobile size */
+/* .container {
+    width: 400px;
+    color: #97B3D0FF;
+} */
+
+.header {
+    color: #DFDCE5FF;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2em;
 }
 
 h2 {
     color: #DBB04AFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: rgb(150, 113, 26);
+    text-decoration: none;
+    font-family: 'Rubik' , sans-serif;
+}
+
+li {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.info li {
+    display: inline-block;
 }
 
 
+/* nav link styling */
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a {
+    transition: all 0.3s ease 0;
+}
+
+.nav li a:hover {
+    color: #000000;
+}
+
+.highlight {
+    background-color: #ABD1C9FF;
+}
 
 
 
