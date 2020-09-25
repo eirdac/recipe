@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+
 body {
 	background-color: #DFDCE5FF;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* 400px width for mobile size */
-/* .container {
-    width: 400px;
-    color: #97B3D0FF;
-} */
+.container {
+    margin-top: 10px;
+}
 
 header {
     background-color: rgb(57, 56, 59);
@@ -28,6 +27,11 @@ h1 {
 }
 
 h2 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
@@ -50,6 +54,65 @@ li {
     font-size: 0.80em;
     font-style: italic;
 }
+
+
+
+/* top button css stuff */
+.insta_btn {
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.insta_btn:hover {
+    background-color: rgb(194, 126, 1);
+}
+
+.twit_btn {
+    border-radius: 50%;
+    background-color: rgb(23, 132, 204);
+    color: white;
+
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.twit_btn:hover {
+    background-color: rgb(13, 82, 128);
+}
+
+
+.pin_btn {
+    border-radius: 50%;
+    background-color: rgb(223, 5, 5);
+    color: white;
+
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.pin_btn:hover {
+    background-color: rgb(129, 5, 5);
+}
+
+
+.print_btn {
+    background-color: rgb(167, 0, 182);
+    color: white;
+
+    font-size: 1.25em;
+}
+
+.print_btn:hover {
+    background-color: rgb(97, 2, 105);
+}
+
 
 
 
