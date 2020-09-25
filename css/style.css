@@ -47,7 +47,10 @@ li {
     text-decoration: none;
 }
 
-
+.recipe_img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /* author/date section */
 .credit {
@@ -55,13 +58,27 @@ li {
     font-style: italic;
 }
 
+.divider {
+    color: rgb(206, 206, 206)
+}
 
+vvv
+
+.text {
+    font-weight: 600;
+}
 
 /* top button css stuff */
+
+.buttons {
+    padding-bottom: 15px;
+}
+
 .insta_btn {
     border-radius: 50%;
     background-color: orange;
     color: white;
+    border-style: solid;
 
     height: 50px;
     width: 50px;
@@ -76,6 +93,7 @@ li {
     border-radius: 50%;
     background-color: rgb(23, 132, 204);
     color: white;
+    border-style: solid;
 
     height: 50px;
     width: 50px;
@@ -91,6 +109,7 @@ li {
     border-radius: 50%;
     background-color: rgb(223, 5, 5);
     color: white;
+    border-style: solid;
 
     height: 50px;
     width: 50px;
@@ -103,14 +122,18 @@ li {
 
 
 .print_btn {
-    background-color: rgb(167, 0, 182);
-    color: white;
+    background-color: rgb(116, 0, 145);
+    border-style: solid;
 
     font-size: 1.25em;
 }
 
+.print_btn a {
+    color: white;
+}
+
 .print_btn:hover {
-    background-color: rgb(97, 2, 105);
+    background-color: rgb(70, 1, 77);
 }
 
 
@@ -136,14 +159,33 @@ li {
 }
 
 .info li {
-    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 
-/* title and time info section */
-.intro {
-    background-color: rgb(196, 220, 247);
-    border-radius: 5px;
+/* footer section */
+.footer {
+    background-color: rgb(57, 56, 59);
+    border-radius: 3px;
+
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #000000;
 }
 
 
@@ -151,21 +193,28 @@ li {
 /* nav link styling ... ingredients, equipment, etc */
 .nav {
     list-style: none;
+    border-style: solid;
+    border-width: 0.5px;
+
 }
 
 .nav li {
     padding: 0px 20px;
+    margin-left: 5px;
 }
 
 .nav li, a {
     transition: all 0.3s ease 0;
+    
     list-style: none;
     text-decoration: none;
     padding: 0;
+    
+    color: rgb(56, 108, 167);
 }
 
 .nav li a:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 
