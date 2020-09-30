@@ -295,12 +295,13 @@ li {
     }
 
     .nav {
-        text-align: center;
-
-        margin-left: auto;
         margin-right: auto;
+        border-style: none;
 
-        width: 150px;
+    }
+
+    .nav li {
+        text-align: left;
     }
 
     .page {
@@ -318,10 +319,19 @@ li {
     }
 
     .img_adjust {
-        width: 450px;
+        width: 200px;
     }
 
 
     /* grid */
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1px 1px;
+        grid-template-areas:
+        "side   main  "
+        "side   main  ";
+    }
 
 }
