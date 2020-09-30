@@ -1,40 +1,40 @@
-Creating a recipe page using HTML/CSS.
+# Creating a recipe page using HTML/CSS.
 
-----------------------------------------
+------------------
 
-Recipe and icons used do not belong to me.
+**Recipe and icons used do not belong to me.**
 recipe source: https://picturetherecipe.com/recipes/banana-bread-with-honey-oats-walnuts/
 
 icon source: https://fontawesome.com/
 
-----------------------------------------
+------------------
 
 **Banana Bread with honey, oats, & walnuts (H1)**
 
 __Content Outline__
 
-Site Content:
+### Site Content:
 - logo
 - nav
 - footer -> legal, copyright, social media
 
 -> clickable header menu
-*- Header*
+*Header*
     - skill level: easy (H2)
     - prep time: 15 mins (H2)
     - cooking time: 1 hr (H2)
     - total time: 1 hr 15 mins (H2)
 
-*- Top anchor links*
+*Top anchor links / top nav*
     - descript.
     - ingredients
     - equip.
     - directions
 
-*- Description (H2)*
+*Description (H2)*
         - "A super simple to make, moist, melt in your mouth delicious Banana Bread with Honey, Oats & Walnuts. This one's perfect to freeze slice and eat whenever you want." (p)
 
-*- Ingredients (H2)*
+*Ingredients (H2)*
 -> list is all p
     - 3 ripe/over ripe bananas, mashed up
     - 1/2 cup butter (1 small stick)
@@ -50,14 +50,14 @@ Site Content:
     - 1/2 cup oats
     - 1 cup chopped walnuts
 
-*- Equipment (H2)*
+*Equipment (H2)*
 -> text is all p
     - large mixing bowl / stand mixer
     - spatula / wooden spoon
     - loaf baking tin
     - cooling rack (optional)
 
-*- Directions (H2)*
+*Directions (H2)*
 -> text is all p
     - Preheat your oven to 350F. In a large mixing bowl or the bowl of a stand up mixer, add the mashed bananas (over ripe bananas are best, mine weren't), a stick of butter, the honey, brown sugar, vanilla, eggs, baking soda, baking powder, cinnamon powder and salt.
     - Using the paddle attachment on medium speed, mix all the ingredients together, till it's all combined. Don't worry too much if there are a few banana lumps here and there.
@@ -68,7 +68,6 @@ Site Content:
     - Take the cake out and let it cool for a 10 minutes, but you have to try a slice while it's still warm....and you have to try it with a little butter or honey yogurt....mmmmmm it just melts in your mouth! It's soooo good.
 
 
--> p text
-*- Footer*
+*Footer* (p)
     - copyright info
     - date
